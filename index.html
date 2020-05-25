@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Погода</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-12 text-center">
+                <h1>Получаем прогноз погоды по API</h1>
+                <h2>JavaScript v2.0. Урок 14</h2>
+                <h3>js2.itgid.info</h3>
+            </div>
+        </div>
+        <p class="Change">ВЫБЕРИТЕ ГОРОД:</p>
+        <select class="goroda">
+            <option selected>Москва</option>
+            <option>Прага</option>
+            <option>Реутов</option>
+            <option>Сочи</option>
+            <option>Киев</option>
+            <option>Голивуд</option>
+            <option>Брюссель</option>
+            <option>Багдад</option>
+        </select>
+        <div class="pricing-table row">
+            <div class="package featured">
+                <div class="temps">
+                    <div>Country:</div>
+                    <div class="package-name"></div>
+                </div>
+                <hr>
+                <div class="temps">
+                    <div class="davt"><img
+                            src="https://cdn2.iconfinder.com/data/icons/freecns-cumulus/32/519875-84_Thermometer_Full-24.png"
+                            alt="" class="davlen">Temperature:</div>
+                    <div class="price"></div>
+                </div>
+                <div class="pogoda">
+                    <div class="disclaimer"></div>
+                    <div class="w-icons"></div>
+                </div>
+                <hr>
+                <div class="temps">
+
+                    <div class="davt"><img src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/water-24.png"
+                            alt="" class="davlen">Humidity:</div>
+                    <div class="humidity"></div>
+                </div>
+                <hr>
+                <div class="temps">
+                    <div class="davt"><img
+                            src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700219-icon-52-barometer-24.png"
+                            alt="" class="davlen">Pressure:</div>
+                    <div class="pressure"></div>
+                </div>
+                <hr>
+                <div class="temps">
+                    <div class="davt"><img
+                            src="https://cdn1.iconfinder.com/data/icons/hawcons/32/699847-icon-43-wind-24.png" alt=""
+                            class="davlen">Wind speed:</div>
+                    <div class="windspeed"></div>
+                </div>
+                </ul>
+            </div>
+        </div>
+        <p class="Change">ВЫБЕРИТЕ ДЕНЬ:</p>
+        <select class="dni">
+            <option selected class="today">Сегодня</option>
+            <option class="tomorrow">Завтра</option>
+            <option class="totomorrow">Послезавтра</option>
+        </select>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

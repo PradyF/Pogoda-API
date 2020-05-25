@@ -1,0 +1,41 @@
+.pricing-table {
+    border: solid 2px greenyellow;
+    width: 250px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+hr {
+    color: greenyellow;
+}
+
+.goroda, .dni {
+    border-radius: 5px;
+    background: #11782e;
+    color: white;
+    height: 34px;
+    padding: 5px;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    width: 265px;
+    margin-bottom: 10px;
+}
+
+.temps, .pogoda {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.features {
+    list-style: none;
+}
+.davt {
+   display: flex;
+   align-items: center;
+}
+.davlen {
+padding-right: 5px;
+}
